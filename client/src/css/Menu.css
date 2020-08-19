@@ -1,0 +1,67 @@
+.menu-page {
+   position: fixed;
+   right: -22rem;
+   top: 3.2rem;
+   background-color: #00C5BE;
+	color: #fff;
+   z-index: 999;
+   width: 22rem;
+	height: 100%;
+}
+
+.menu-button {
+   position: absolute;
+   left: -3.2rem;
+   width: 3.2rem;
+   height: 3.2rem;
+   line-height: 3.2rem;
+   background-color: #00C5BE;
+	color: #fff;
+   font-size: 2.0rem;
+   cursor: pointer;
+}
+
+.menu-page a {
+	color: #fff;
+}
+
+.menu-item {
+   font-size: 2rem;
+   padding: 0.5rem 1.5rem;
+   text-decoration: none;
+}
+
+.menu-topitem {
+   text-decoration: none;
+   border-bottom: 1px solid #aaa;
+
+}
+
+.menu-item:hover{
+   background-color: #00f5ee;
+   color:#444;
+}
+
+.menu-spacer {
+   height: 2.0rem;
+}
+
+.action-slide-out {
+   -webkit-transition-property: right;
+   -webkit-transition-duration: 0.3s;
+   -webkit-transition-timing-function: ease-out;
+   transition-property: right;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+   right: 0rem;
+}
+
+.action-slide-in {
+   -webkit-transition-property: right;
+   -webkit-transition-duration: 0.3s;
+   -webkit-transition-timing-function: ease-out;
+   transition-property: right;
+   transition-duration: 0.3s;
+   transition-timing-function: ease-out;
+   right: -22rem;
+}

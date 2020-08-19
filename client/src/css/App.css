@@ -1,0 +1,115 @@
+/* CUSTOM STYLES */
+.nav {
+  width: 100%;
+  background-color: #797B7E;
+  background-image: url('/images/background-1.jpg');
+  padding: 15px 0 10px;
+  line-height: 2.0rem;
+}
+
+.nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #C5AE8A;
+}
+
+.nav a:hover {
+  color: #fff;
+}
+
+.footer {
+  background-color: #797B7E;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+.footer-text {
+  color: #C5AE8A;
+  font-size: 10px;
+}
+
+.space {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #11f;
+  border-radius: 2px;
+  border: none;
+  padding: 3px;
+}
+
+.btn-primary:hover {
+  background-color: #77f;
+}
+
+.error {
+  background-color: pink;
+  color: red;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.success {
+  background-color: #ceffce;
+  color: green;
+  border: 1px solid green;
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: 75%;
+  margin: 10px auto;
+}
+
+.no-flash {
+  visibility: hidden;
+  padding: 0px 0px;
+  width: 75%;
+  margin: 0px auto;
+}
+
+.x-button {
+  background-color: red;
+  color: white;
+  border-radius: 2px;
+  float: right;
+}
+
+/* DEFAULT STYLES FROM CREATE REACT APP MODULE */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #CAD8D9;
+  height: 100px;
+  padding: 20px;
+  color: #4A6C96;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.username-title {
+   display: inline-block;
+   font-size: 2.0rem;
+   text-align: right;
+   margin-right: 2.0rem;
+   color: #f0f0f0;
+}
+
+.calendar-title {
+   display: inline-block;
+   font-size: 2.0rem;
+   font-weight: 900;
+   text-align: left;
+   color: #fff;
+}
